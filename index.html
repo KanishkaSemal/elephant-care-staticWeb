@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Research Project Page</title>
+  <link rel="stylesheet" href="stayle.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="Images/Logo.png" alt="Logo" />
+        <span class="logo-elephant">Elephant</span><span class="logo-care">Care.</span>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">About Us</a></li>
+          <li class="nav-item"><a href="#features">Device Feature</a></li>
+          <li class="nav-item"><a href="#project-scope">Project Scope</a></li>
+          <li class="nav-item"><a href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Hero section -->
+    <section class="hero-section">
+      <div class="section-content">
+        <div class="hero-details">
+        <h2 class="title">Elephant-Care</h2>
+        <h3 class="subtitle"> Wearable IoT – Enabled belt for elephant protection & emergency identification</h3>
+        <p class="description">Welcome to Our Research Project,This project explores "To design an IoT-based solution that protects elephants through real-time health monitoring, detection, and alerts, ensuring their safety and conservation....."</p>
+
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="Images/hero2.png" alt="Hero" class="hero-image">
+        </div>
+        </div>
+    </section>
+
+    <!-- About section-->
+     <section class="about-section" id="about">
+  <div class="section-content">
+    <h2 class="section-title">About Us</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <img src="Images/pic1.png" alt="Member 1" class="about-image">
+        <h3 class="member-name">Supervisor</h3>
+        <h3 class="member-name">Prof.Anuradha Jayakody</h3>
+        <p class="member-role">Department of Computer Systems Engineering </p>
+      </div>
+      <div class="about-card">
+        <img src="Images/pic2.png" alt="Member 2" class="about-image">
+        <h3 class="member-name">Co-Supervisor</h3>
+        <h3 class="member-name">Ms.Uthpala Samarakoon</h3>
+        <p class="member-role">Senior Lecturer Information Technology</p>
+      </div>
+      <div class="about-card">
+        <img src="Images/pic3.png" alt="Member 3" class="about-image">
+        <h3 class="member-name">Group Leader</h3>
+        <h3 class="member-name">Perera B.A.D.K.S</h3>
+        <p class="member-role">Undergraduate Sri Lanka Institute of Information Technology</p>
+      </div>
+      <div class="about-card">
+        <img src="Images/pic4.png" alt="Member 4" class="about-image">
+        <h3 class="member-name">Group Member</h3>
+        <h3 class="member-name">De Silva L.M.C</h3>
+        <p class="member-role">Undergraduate Sri Lanka Institute of Information Technology</p>
+      </div>
+      <!-- You can add 2 more below for full 6-card layout -->
+    </div>
+  </div>
+</section>
+
+<!-- Device Feathure-->
+<section id="features" class="device-section">
+  <h2 class="device-title">Elephant - Care Unit</h2>
+  
+  <div class="device-image-wrapper">
+    <img src="Images/device.png" alt="Elephant Device" class="device-image">
+  </div>
+
+  <div class="device-description">
+    <h3>Elephant-Care System</h3>
+    <p>A smart, two-part solution for elephant protection and emergency response.</p>
+
+    <h4>1. Wearable IoT Belt</h4>
+    <p>A custom, non-invasive belt equipped with advanced sensors to monitor:</p>
+    <ul>
+      <li>Heart rate & SpO₂ (<strong>MAX30102</strong>)</li>
+      <li>Body temperature (<strong>LM75</strong>)</li>
+      <li>Movement & orientation (<strong>MPU6050 IMU</strong>)</li>
+      <li>Location tracking (<strong>GPS</strong>)</li>
+    </ul>
+    <p>Data is wirelessly sent in real-time for analysis.</p>
+
+    <h4>2. Real-Time Analysis & Alerting System</h4>
+    <p>Powered by an <strong>ESP32</strong> microcontroller, the system detects health risks, abnormal behavior, or threats — sending immediate alerts for rapid response.</p>
+
+    <h4>Key Features:</h4>
+    <ul>
+      <li>Real-time monitoring</li>
+      <li>Wireless data transfer</li>
+      <li>Energy-efficient design</li>
+      <li>Rugged and field-ready</li>
+    </ul>
+
+    <p class="closing-line">Protecting elephants through innovation and care. 🐘💡</p>
+  </div>
+</section>
+
+<!-- Project Scope -->
+  <!-- Project Scope -->
+  <section class="section center-content" id="project-scope">
+    <h2 class="main-title">Project Scope</h2>
+    <h3 class="subtitle">Literature Survey</h3>
+    <p class="text">
+      Recent advancements in IoT and machine learning have improved wildlife conservation. Yet, real-time health monitoring for large animals like elephants remains a challenge. While early methods like GPS collars only tracked location, newer systems integrate biometric sensors like PPG to gather physiological data. Our system overcomes previous limitations such as EMI issues, weak transmission, and limited data accuracy. We use improved LoRa transmission, AI-based gait analysis, and ethical, non-invasive designs to ensure effective and scalable elephant monitoring.
+    </p>
+  </section>
+
+  <!-- Research Gap -->
+  <section class="section center-content" id="research-gap">
+    <h2 class="main-title">Research Gap</h2>
+    <img src="Images/gap.png" alt="Elephant Research" class="section-image">
+    <p class="text">
+      Existing solutions often focus on individual aspects like GPS or motion detection, lacking integration. There's a gap in combining biometric sensors, robust long-range communication, and intelligent alerting systems into a single, wearable solution optimized for elephants in the wild.
+    </p>
+  </section>
+
+  <!-- Research Problem -->
+  <section class="section center-content" id="research-problem">
+    <h2 class="main-title">Research Problem</h2>
+    <p class="text">
+      How can a wearable IoT-enabled belt effectively monitor and analyze the biometric data of elephants in real-time to identify and respond to emergency situations, thereby enhancing their protection and overall health management?
+    </p>
+  </section>
+
+  <!-- Research Objectives -->
+  <section class="section center-content" id="research-objectives">
+    <h2 class="main-title">Research Objectives</h2>
+    <p class="text">
+      To design and implement an IoT-based solution aimed at protecting elephants using advanced detection, monitoring, and alerting technologies focused on real-time health monitoring.
+    </p>
+    <ul class="objectives">
+      <li>Realtime data collection and transmission.</li>
+      <li>Develop durable belt for elephant.</li>
+      <li>Real-time health monitoring.</li>
+      <li>Emergency detection and notification.</li>
+      <li>Providing user-friendly interface.</li>
+    </ul>
+  </section>
+
+  <!-- Methodology -->
+  <section class="section center-content" id="methodology">
+    <h2 class="main-title">Methodology</h2>
+    <img src="Images/Overal diagram.png" alt="Methodology Diagram" class="section-image">
+    <p class="text">
+      The "Elephant-Care" system consists of a wearable IoT belt and a real-time data processing system. The belt captures vital parameters like heart rate, SpO₂, temperature, and movement, then transmits it via LoRa to a base system. The dual-core ESP32 processes and sends the data, with emergency alerts triggered instantly. This robust, ethical system ensures minimal discomfort to elephants while enabling early emergency detection and conservation.
+    </p>
+    <h3 class="subtitle">A. IoT-Enabled Smart Elephant Detection System</h3>
+    <p class="text">
+      <strong>1) Sensors & Microcontroller:</strong> MAX30102 for SpO₂, LM75 for temperature, MPU6050 for motion detection, managed by ESP32 microcontroller.<br>
+      <strong>2) Communication Protocol:</strong> LoRa 868 MHz, JSON packet encoding, CRC error-checking, and RTOS-based task scheduling for fast and reliable alerts.
+    </p>
+  </section>
+
+  <!-- Technologies Used -->
+  <section class="section center-content" id="technologies-used">
+    <h2 class="main-title">Technologies Used</h2>
+    <div class="tech-icons">
+      <img src="Images/t2.jpg" alt="GitHub" title="GitHub">
+      <img src="Images/t3.jpg" alt="Git" title="Git">
+      <img src="Images/t4.jpg" alt="JavaScript" title="JavaScript">
+      <img src="Images/t5.jpg" alt="Arduino IDE" title="Arduino IDE">
+      <img src="Images/t6.jpg" alt="Arduino IDE" title="Arduino IDE">
+      <img src="Images/t7.jpg" alt="Arduino IDE" title="Arduino IDE">
+    </div>
+  </section>
+
+  </main>
+
+  
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="Images/g1.jpg" alt="Device Image 1">
+            <img src="Images/g2.jpg" alt="Device Image 1">
+            <img src="Images/g3.jpg" alt="Device Image 1">
+            <img src="Images/g4.jpg" alt="Device Image 1">
+            <img src="Images/g5.jpg" alt="Device Image 1">
+            <img src="Images/g6.jpg" alt="Device Image 1">
+            <img src="Images/g7.jpg" alt="Device Image 1">
+            <img src="Images/g8.jpg" alt="Device Image 1">
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+  <footer>
+  <div class="footer-container">
+    <img src="Images/Logo.png" alt="Logo" class="footer-logo">
+    <p>© 2025 Elephant Care Research Team. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
